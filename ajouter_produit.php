@@ -5,7 +5,6 @@
 
 	<head>
 		<meta charset="utf-8">
-		<script type="text/javascript" src="js/design.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -18,7 +17,7 @@
 
 					<h2>Ajout d'un produit</h2>
 
-					<form class="form" action="add_product.php" method="POST">
+					<form class="form" action="CRUD-IT/add_product.php" method="POST">
 
 						<fieldset>
 						<legend>Produit</legend><br>

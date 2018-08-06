@@ -5,25 +5,27 @@
 
 	<head>
 		<meta charset="utf-8">
-		<script type="text/javascript" src="js/design.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 	<body>
 
 
-				<?php
-					
-					if(isset($_SESSION['sessions']))
-					
-						{include ('include/_user_header.php'); }
-					
-					else 
+				<?php include ('include/_header.php');
 
-						{include ('include/_header.php'); }
-				
-				//include 'include/_header.php'; ?>
+			/*	if(empty($_SESSION)) { session_start(); 
+
+					if(! isset($_SESSION['login'])) 
+
+						{ include ('include/_header.php'); }
+
+
+						else()
+
+
+						{ include ('include/_user_header.php');} }*/
+
+				 ?>
 				
 				<div class="presentation"><h1>Bienvenue dans la boutique de Cailluspupus</h1></div>
 
@@ -75,7 +77,6 @@
 				<?php include 'include/_footer.php'; ?>
 
 
-				</footer>
 
 	</body>
 
